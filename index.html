@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html lamg = "ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Семестровая работа</title>
-    </head>
-    <body>
-        <div id="header">Головастик</div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="pages/news.html">Новости</a></li>
-                <li><a href="pages/practices.html">Практики</a></li> 
-                <li><a href="pages/goods.html">Товары</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
+<html lamg="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семестровая работа</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="header">ХТО Я...</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
             </ul>
         </div>
-        <div id="content">
-            <p>Информация об авторе</p>
-            <img src="images/photo.jpg" alt="Фото автора" width="200" height="250">
-            <p>Курденков Иван Валерьевич</p>
-            <p>ЭФБО-18-24</p>
-            <p>Обо мне: Появился на свет в 2006 году, в московском родильном отделении поликлиники № N.
-                Профессианально занимаюсь х**ней. Принимаю подачки в виде деняг.</p>
-            <div>Умею очень привлекательно и вызывающе находится в состоянии сна</div>
-            <div>Нет сигнала...</div>
-            <div>Если завтра не умру, не звоните</div>
-            <div>
-                Мой опыт работы:
-                <div>
-                    КАМЕНЬЩИК<br>
-                    Работал каменьщиком, 3 дня и 3 ночи, зарплаты небыло...
+
+        <div class="content">
+            <div class="profile-header">
+                <h1 class="profile-title">Информация об авторе</h1>
+                <img class="profile-photo" src="images/photo.jpg" alt="Фото автора">
+                <h2 class="profile-name">Курденков Иван Валерьевич</h2>
+                <p class="profile-group">ЭФБО-18-24</p>
+            </div>
+
+            <div class="about-me">
+                <p>Обо мне: Появился на свет в 2006 году, в московском роддоме № N.
+                    Профессианально занимаюсь фигней. Принимаю подачки в виде деняг.</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-tag">Умею очень привлекательно и вызывающе находится в состоянии сна</div>
+                <div class="skill-tag">Нет сигнала...</div>
+                <div class="skill-tag">Если завтра не умру, не звоните</div>
+            </div>
+
+            <div class="experience-section">
+                <h2 class="section-title">Мой опыт работы:</h2>
+                <div class="experience-card">
+                    <h3 class="experience-title">КАМЕНЬЩИК</h3>
+                    <p class="experience-desc">Работал каменьщиком, 3 дня и 3 ночи, зарплаты небыло... </p>
                 </div>
-            <div>
-                    ПОТЕРЯ ВРЕМЕНИ<br>
-                    Профессианально пр***вал время, ничего не делая
+                <div class="experience-card">
+                    <h3 class="experience-title">ПОТЕРЯ ВРЕМЕНИ</h3>
+                    <p class="experience-desc">Профессианально протрачивал время, ничего не делая...</p>
                 </div>
-                <div>
-                    КОНСУЛЬТАНТ<br>
-                    Добрый день, я из компании Арифлейм...
+                <div class="experience-card">
+                    <h3 class="experience-title">КОНСУЛЬТАНТ</h3>
+                    <p class="experience-desc">Добрый день, я из компании Арифлейм...</p>
                 </div>
             </div>
         </div>
-        <div id="footer">Ножник</div>    
-    </body>
+        <div id="footer">ООО Додеп 2025.</div>
+    </div>
+</body>
+
 </html>

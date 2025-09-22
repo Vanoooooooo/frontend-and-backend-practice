@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Товары - Семестровая работа</title>
+    <link rel="stylesheet" href="../style/styles.css">
 </head>
-<body>    
-    <div id="header">Головастик</div>    
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="../pages/news.html">Новости</a></li>
-            <li><a href="../pages/practices.html">Практики</a></li> 
-            <li><a href="../pages/goods.html">Товары</a></li>
-            <li><a href="../pages/contacts.html">Контакты</a></li>
-        </ul>
-    </div>        
-    <div id="content">
-        <h1>Каталог товаров</h1>
-        
-        <div>            
-            <div>
-                <img src="../images/product1.jpg" alt="Дрон" width="200" height="150">
-                <h3>Боевой дрон "кто-то седня сдохнет"</h3>
-                <p>85 000 ₽</p>
-            </div>                        
-            <div>
-                <img src="../images/product2.jpg" alt="ГришаДодепович" width="200" height="150">
-                <h3>Смартфон премиум (Григорий Костин)</h3>
-                <p>3 пачки Кириешек</p>
-            </div>                        
-            <div>
-                <img src="../images/product3.jpg" alt="Бумер" width="200" height="150">
-                <h3>BMW X3 E83</h3>
-                <p>BMW X3 E83 2008 2.5 бензин АТ Пробег  291773. На полном ходу. </p>
-                <p>В родной краске за исключением одной задней двери . Юридически чистая </p>
-                <p>710 000 ₽</p>
-            </div>               
+
+<body>
+    <div class="page-container">
+        <div class="header">ХТО Я...</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contacts.html">Контакты</a></li>
+            </ul>
         </div>
-    </div>    
-    <div id="footer">Ножник</div>
+
+        <div class="content">
+            <div class="profile-header">
+                <h1 class="profile-title">Каталог товаров</h1>
+            </div>
+
+            <div class="experience-section">
+                <div class="experience-card">
+                    <div class="skills-container">
+                        <img src="../images/product1.jpg" alt="Дрон" width="250" height="150">
+                        <h3>Боевой дрон "кто-то седня сдохнет"</h3>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-tag">85 000 ₽</div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="skills-container">
+                        <img src="../images/product2.jpg" alt="ГришаДодепович" width="250" height="150">
+                        <h3>Смартфон премиум (Григорий Костин)</h3>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-tag">Три пачки кириешек</div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="skills-container">
+                        <img src="../images/product3.jpg" alt="Бумер" width="250" height="150">
+                        <h3>BMW X3 E83 (ПУЩКА БОМБА ПЕТАРДА)</h3>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-tag">710 000 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">ООО Додеп 2025.</div>
 </body>
+
 </html>
