@@ -10,8 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">ХТО Я...</div>
-        <div class="nav">
+        <header class="header">
+            <h1>ХТО Я...</h1>
+        </header>
+
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
@@ -19,44 +22,53 @@
                 <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="content">
-            <div class="profile-header">
+        <main class="content">
+            <article class="profile-header">
                 <h1 class="profile-title">Информация об авторе</h1>
                 <img class="profile-photo" src="images/photo.jpg" alt="Фото автора">
                 <h2 class="profile-name">Курденков Иван Валерьевич</h2>
                 <p class="profile-group">ЭФБО-18-24</p>
-            </div>
+            </article>
 
-            <div class="about-me">
+            <section class="about-me">
+                <h2>Обо мне</h2>
                 <p>Обо мне: Появился на свет в 2006 году, в московском роддоме № N.
                     Профессианально занимаюсь фигней. Принимаю подачки в виде деняг.</p>
-            </div>
+            </section>
 
-            <div class="skills-container">
-                <div class="skill-tag">Умею очень привлекательно и вызывающе находится в состоянии сна</div>
-                <div class="skill-tag">Нет сигнала...</div>
-                <div class="skill-tag">Если завтра не умру, не звоните</div>
-            </div>
+            <section class="skills-container">
+                <h2>Мои навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-tag">Умею очень привлекательно и вызывающе находится в состоянии сна</div>
+                    <div class="skill-tag">Нет сигнала...</div>
+                    <div class="skill-tag">Если завтра не умру, не звоните</div>
+                </div>
+            </section>
 
-            <div class="experience-section">
+            <section class="experience-section">
                 <h2 class="section-title">Мой опыт работы:</h2>
-                <div class="experience-card">
-                    <h3 class="experience-title">КАМЕНЬЩИК</h3>
-                    <p class="experience-desc">Работал каменьщиком, 3 дня и 3 ночи, зарплаты небыло... </p>
+                <div class="experience-drid">
+                    <article class="experience-card">
+                        <h3 class="experience-title">КАМЕНЬЩИК</h3>
+                        <p class="experience-desc">Работал каменьщиком, 3 дня и 3 ночи, зарплаты небыло... </p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">ПОТЕРЯ ВРЕМЕНИ</h3>
+                        <p class="experience-desc">Профессианально протрачивал время, ничего не делая...</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">КОНСУЛЬТАНТ</h3>
+                        <p class="experience-desc">Добрый день, я из компании Арифлейм...</p>
+                    </article>
                 </div>
-                <div class="experience-card">
-                    <h3 class="experience-title">ПОТЕРЯ ВРЕМЕНИ</h3>
-                    <p class="experience-desc">Профессианально протрачивал время, ничего не делая...</p>
-                </div>
-                <div class="experience-card">
-                    <h3 class="experience-title">КОНСУЛЬТАНТ</h3>
-                    <p class="experience-desc">Добрый день, я из компании Арифлейм...</p>
-                </div>
-            </div>
-        </div>
-        <div id="footer">ООО Додеп 2025.</div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>ООО "Бнал" 2025.</p>
+        </footer>
     </div>
 </body>
 
