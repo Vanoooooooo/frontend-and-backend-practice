@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Товары - Семестровая работа</title>
+    <title>Контакты - Портфолио</title>
     <link rel="stylesheet" href="../style/styles.css">
     <style>
         /* Стили для модального окна */
@@ -160,26 +160,35 @@
 </head>
 
 <body>
-    <div class="page-container">
+    <div class="page">
         <header class="header">
-            <h1>ХТО Я...</h1>
+            <h1 class="header__title">ХТО Я...</h1>
         </header>
 
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
-                <li class="nav-item"><a class="nav-link" href="../pages/news.html">Новости</a></li>
-                <li class="nav-item"><a class="nav-link" href="../pages/practices.html">Практики</a></li>
-                <li class="nav-item"><a class="nav-link" href="../pages/goods.html">Товары</a></li>
-                <li class="nav-item"><a class="nav-link" href="../pages/contacts.html">Контакты</a></li>
+            <ul class="nav__list">
+                <li class="nav__item" nav__item--active>
+                    <a class="nav__link" href="../index.html">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../pages/news.html">Новости</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../pages/practices.html">Практики</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../pages/goods.html">Товары</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../pages/contacts.html">Контакты</a>
+                </li>
             </ul>
         </nav>
 
-        <main class="content">
-            <article class="profile-header">
-                <h1 class="profile-title">Контакты для связи</h1>
-            </article>
-            <h2>Наши контакты</h2>
+        <main class="main">
+            <section class="profile">
+                <h1>Контакты для связи</h1>
+            </section>
             <div>
                 <div>
                     <h3>Электронная почта:</h3>
@@ -193,7 +202,6 @@
                     <button class="contact-button" onclick="contactModal.showModal()">Связаться с нами</button>
                 </div>
             </div>
-            <div id="footer">ООО "Бнал" 2025.</div>
 
             <dialog id="contactModal">
                 <div class="modal-header">
@@ -294,6 +302,11 @@
                     }
                 });
             </script>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">&copy; ООО "Бнал" 2025.</p>
+        </footer>
     </div>
 </body>
 
